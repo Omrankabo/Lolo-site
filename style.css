@@ -49,8 +49,8 @@ form{
 header form .forms{
     position: absolute;
     top: 16%;
+    right: 5px;
     font-size: 30px;
-    right: 0;
     color: rgba(1, 22, 39, 0.6) !important;
     cursor: pointer;
     pointer-events: all;
