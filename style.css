@@ -70,11 +70,11 @@ header form .forms{
     object-fit: cover;
     -o-object-fit: cover;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    transition: .3s linear;
+    transition: .3s filter linear;
 }
 .Mimage:hover{
     filter:  brightness(.8);
-    transition: .3s linear;
+    transition: .3s filter linear;
 }
 
 main{
@@ -118,7 +118,7 @@ main{
     max-width: 342px;
     display: flex;
     justify-content: space-between;
-    transition: .3s;
+    transition: .3s linear padding;
 }
 .cardinfo{
     max-height: 104px;
@@ -189,7 +189,7 @@ color: #011627a1;
     /* color: #FDFFFC; */
     /* color: #2EC4B6; */
     color: #FE8787;
-    transition: .3s;
+    transition: .3s all linear;
 }
 .add:hover{
     border-radius: 0;
@@ -200,7 +200,7 @@ color: #011627a1;
     /* color: #FDFFFC; */
     color: #f5f5f5;
     background: #FE8787;
-    transition: .3s;
+    transition: .3s all linear;
 }
 
 .sidecontainer{
@@ -240,7 +240,7 @@ color: #011627a1;
 .fex{
     font-size: 30px;
     color: #011627;
-    transition: .3s;
+    transition: .3s color linear;
 }
 
 .Ftext{
@@ -277,11 +277,11 @@ color: #011627a1;
 }
 .active{
     color: #2EC4B6;
-    transition: .3s;
+    transition: .3s color linear;
 }
 .fotimg:hover{
     color: #2EC4B6;
-    transition: .3s;
+    transition: .3s color linear;
 }
 a{
     text-decoration: none;
@@ -385,11 +385,11 @@ a{
     color: #FE8787;
 
     border: none;
-    transition: .3s;
+    transition: .3s color linear;
 }
 .sbtn:hover{
     color: #011627a1;
-    transition: .3s ;
+    transition: .3s  color linear;
 }
 .already h2{
     font-family: 'Poppins',sans-serif;
@@ -435,7 +435,7 @@ a{
     box-shadow: 0px 3px 14px rgba(0, 0, 0, 0.25);
     border-radius: 6px;
     padding: 0.4rem ;
-    transition: .3s;
+    transition: .3s padding linear;
 }
 .ca:hover .Mimage{
     box-shadow: none;
@@ -461,12 +461,12 @@ a{
     font-size: 20px;
     border-radius: 9px;
     color: #f5f5f5;
-    transition: .3s;
+    transition: .3s background color linear;
 }
 .itm:hover{
     background: transparent;
     color: #FE8787;
-    transition: .3s;
+    transition: .3s background color linear;
 }
 .cp {
     margin:0 ;
@@ -525,13 +525,13 @@ color: #011627;
     border: none;
     border-radius: 6px;
     background: #2EC4B624;
-    transition: .3s;
-
+    transition: .3s  background color linear;
+    
 }
 .checkout:hover{
     background: #2ec4b508;
     color: #363f3f;
-    transition: .3s;
+    transition: .3s  background color linear ;
 }
 @media screen and (min-width: 412px) {
 
