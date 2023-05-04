@@ -6,7 +6,7 @@ body{
     background: #f5f5f5;
     padding: 0;
     margin: 0;
-    background: url(assets/outershape.png);
+    background: url(assets/outershape.webp);
     background-position:  top right;
     background-repeat: no-repeat;
     height: 100vh;
@@ -86,6 +86,12 @@ main{
 .menall{
     display: flex;
     justify-content: space-between;
+}
+.cae{
+    /* max-height: ; */
+}
+.feacon{
+    padding: 14px 1.5rem;
 }
 .htext{
 
@@ -536,6 +542,11 @@ color: #011627;
     transition: .3s  background color linear ;
 }
 @media screen and (min-width: 412px) {
+    header .container {
+        display: flex;
+        flex-direction: column;
+
+    }
 
     /* login */
     .sbtn{
