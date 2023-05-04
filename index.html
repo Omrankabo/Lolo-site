@@ -15,8 +15,8 @@
                 <h1 class="hetext" >Hi,<span class="user">user</span> </h1>
                 <h2>All what you desire in one place</h2>
                 <form>
-                    <img src="assets/glass.svg" alt="">
-                    <input type="search" class="search" placeholder="search">
+                    <ion-icon name="search-outline" class="forms"></ion-icon>
+                    <input type="text" class="search" placeholder="search">
                 </form>
             </div>
         </div>
@@ -32,11 +32,12 @@
             <!-- cards container -->
             <div class="cardcontainer">
                 <!-- card start -->
-                <div class="card">
+                <div class="card ca">
                     <img src="assets/item1.jpg" alt="item one" class="Mimage">
                     <div class="cardinfo">
                         <h1 class="Mtitle">Meat burger</h1>
-                        <h2 class="Msubtitle">hot big meat</h2>
+                        <p class="Msubtitle">delicious test with 
+                            the meat you love</p>
                         <div class="pricecontainer">
                             <h1 class="price">$4.5</h1>
                             <button class="add">add</button>
@@ -45,12 +46,13 @@
                 </div>
                 <!-- card ends -->
                 <!-- card start -->
-                <div class="card">
+                <div class="card ca">
                     <img src="assets/item2.jpg" alt="item one" class="Mimage">
                     <div class="cardinfo">
                         
-                        <h1 class="Mtitle">Meat burger</h1>
-                        <h2 class="Msubtitle">hot big meat</h2>
+                        <h1 class="Mtitle">Chicken burger</h1>
+                        <p class="Msubtitle">delicious test with 
+                            the meat you love</p>
                         <div class="pricecontainer">
                             <h1 class="price">$4.5</h1>
                             <button class="add">add</button>
@@ -63,38 +65,38 @@
         </div>
         <!-- features  -->
         <div class="features">
-            <h1 class="fetext">features</h1>
+            <h1 class="htext">features</h1>
             <div class="sidecontainer">
                 <!-- singel item -->
                 <div class="single">
                     <div class="imgcontainer">
-                        <img src="assets/Vector.svg" alt="">
+                        <ion-icon name="flame-outline" class="fex"></ion-icon>
+                        <h2 class="Ftext">Hot flavor</h2>
                     </div>
-                    <h2 class="Ftext">good quality</h2>
                 </div>
                 <!-- singel ends -->
                 <!-- singel item -->
                 <div class="single">
                     <div class="imgcontainer">
-                        <img src="assets/Vector-1.svg" alt="">
+                        <ion-icon name="beer-outline" class="fex"></ion-icon>
+                        <h2 class="Ftext">Tasty food</h2>
                     </div>
-                    <h2 class="Ftext">tasty food</h2>
                 </div>
                 <!-- singel ends -->
                 <!-- singel item -->
                 <div class="single">
                     <div class="imgcontainer">
-                        <img src="assets/Vector-2.svg" alt="">
+                        <ion-icon name="heart-outline" class="fex"></ion-icon>
+                        <h2 class="Ftext">Full of love</h2>
                     </div>
-                    <h2 class="Ftext">fresh martials</h2>
                 </div>
                 <!-- singel ends -->
                 <!-- singel item -->
                 <div class="single">
                     <div class="imgcontainer">
-                        <img src="assets/Vector-3.svg" alt="">
+                        <ion-icon name="fast-food-outline" class="fex"></ion-icon>
+                        <h2 class="Ftext">High quality</h2>
                     </div>
-                    <h2 class="Ftext">tasty food</h2>
                 </div>
                 <!-- singel ends -->
 
@@ -104,15 +106,16 @@
     <!-- footer -->
     <div class="footerNav">
         <div class="fncontainer">
-            <a href="index.html"><img class="fotimg" src="assets/Vectora.svg" alt=""></a>
-            <a href="#"><img class="fotimg" src="assets/glass.svg" alt="search"></a>\
-            <a href="#">
-                <img class="fotimg" src="assets/cart.svg" alt="cart">
-            </a>
-            <a href="#"> <img class="fotimg" src="assets/user-solid.svg" alt="user"></a>
+            
+            <a href="#"> <ion-icon name="home-outline" class="fotimg actives"></ion-icon> </a>
+            <a href="#"> <ion-icon name="search-outline" class="fotimg"></ion-icon> </a>
+            <a href="cart.html"> <ion-icon name="cart-outline" class="fotimg"></ion-icon> </a>
+            <a href="login.html"> <ion-icon name="person-outline" class="fotimg"></ion-icon> </a>
             
         </div>
     </div>
     <script src="app.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
